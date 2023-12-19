@@ -4,6 +4,7 @@ from sklearn.metrics import accuracy_score,classification_report
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
+#decisiontree
 iris = load_iris()
 
 x = iris.data
