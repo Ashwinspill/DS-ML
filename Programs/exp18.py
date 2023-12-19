@@ -8,6 +8,6 @@ def simple_scraper(url):
        print("Content:")
        print(soup.get_text())
    else:
-       print("Failed to fetch the page. Status code:", response.status_code)
+       print("Failed to fetch the pag e. Status code:", response.status_code)
 url_to_scrap="https://ajce.in"
 simple_scraper(url_to_scrap)
