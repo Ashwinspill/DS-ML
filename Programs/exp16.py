@@ -16,7 +16,7 @@ print(X_train)
 y_train = to_categorical(y_train)
 y_test = to_categorical(y_test)
 print(y_test)
-# Create a simple feedforward neural network model
+# Create a simple feedforward     neural network model
 model=Sequential([
 Dense(128, activation='relu', input_shape=(28 * 28,)),
 Dense(68, activation='relu'),
