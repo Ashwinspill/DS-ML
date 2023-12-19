@@ -25,5 +25,5 @@ plt.scatter(x_test,y_test,color="black")
 plt.plot(x_test,v,color="skyblue")
 plt.xlabel("bleg")
 plt.ylabel("bleh")
-# plt.legend()
 plt.show()
+
