@@ -3,7 +3,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-
+#multiple linear
 cal = fetch_california_housing()
 
 df = pd.DataFrame(data=cal.data, columns=cal.feature_names)
@@ -22,3 +22,4 @@ v = model.predict(x_test)
 mean = mean_squared_error(y_test,v)
 
 print(mean)
+
