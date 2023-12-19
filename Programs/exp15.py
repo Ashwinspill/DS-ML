@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score,classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
+#bfa
 
 categories = ['alt.atheism','soc.religion.christian','comp.graphics','sci.med']
 
