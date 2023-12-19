@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.datasets import load_iris
 
+#kmeans
 iris = load_iris()
 x = iris.data
 y = iris.target
